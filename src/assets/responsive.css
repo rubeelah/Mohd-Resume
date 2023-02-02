@@ -1,0 +1,124 @@
+@media(max-width:1200px) and (min-width:992px) {
+    .social_media:after {
+        left: 83px;
+        top: 9px;
+        width: 6.2%;
+        transform: rotate(109deg);
+    }
+
+    .social_media ul:before {
+        left: -7px;
+        top: 11px;
+        width: 6%;
+        transform: rotate(60deg);
+    }
+
+}
+
+
+@media(max-width:991px) and (min-width:768px) {
+    .mt-50 {
+        margin-top: 50px;
+    }
+
+    .main_navbar a:hover::before{
+        right: unset !important;
+    }
+
+    .social_media:after {
+        left: 125px;
+        top: 8px;
+        width: 4.4%;
+        transform: rotate(119deg);
+    }
+
+    .social_media ul:before {
+        left: -5px;
+        width: 4.2%;
+        transform: rotate(48deg);
+    }
+
+    .main_navbar a:hover::before{
+        right: unset !important;
+    }
+
+    .main_shape::after {
+        left: 10px;
+        top: 8px;
+        width: 25px;
+        transform: rotate(141deg);
+    }
+
+    #home {
+        height: 100%;
+    }
+
+    body .mt-150 {
+        margin-top: 150px !important;
+    }
+
+    .main_heading h1:before {
+        width: 60%;
+    }
+
+}
+
+@media(max-width:767px) and (min-width:320px) {
+    #home {
+        height: 100%;
+    }
+    .main_navbar a:hover::before{
+        right: unset !important;
+    }
+
+    .social_media:after {
+        display: none;
+    }
+
+    .mt-50 {
+        margin-top: 50px;
+    }
+
+    .main_heading h1:before {
+        width: 90%;
+    }
+
+    body .mt-150 {
+        margin-top: 150px !important;
+    }
+
+    .skills_all {
+        padding-right: 0;
+    }
+
+    .text_desing {
+        display: none;
+    }
+
+}
+
+@media(max-width:500px) {
+    .social_media ul:before {
+        left: -8px;
+        top: 11px;
+        width: 7%;
+        transform: rotate(67deg);
+
+    }
+
+    .home_content h1 {
+        font-size: 40px;
+    }
+
+    .tabs_resume {
+        overflow-x: scroll;
+        white-space: nowrap;
+        flex-wrap: nowrap !important;
+        overflow-y: hidden;
+        width: 100%;
+    }
+
+    .main_heading h1:before {
+        width: 100%;
+    }
+}

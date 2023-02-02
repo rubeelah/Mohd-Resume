@@ -1,0 +1,88 @@
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bgpurple:#8d33f2;
+  --main-bg-color:#06101d;
+  --text-color:#d1cbe6;
+  --bgpink: #b32a90;
+}
+
+body .bg_grey{
+  background: linear-gradient(45deg, #d1cbe6, #d1cbe6) !important;
+}
+
+body{
+  background-color: var(--main-bg-color) !important;
+}
+
+.text_color_gradint{
+  background: -webkit-linear-gradient(var(--bgpurple), var(--bgpink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.f-w-600{
+  font-weight: 600;
+}
+
+.bg_gradient{
+  background: linear-gradient(176deg, var(--bgpink), var(--bgpurple)) !important;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--text-color) !important;
+  margin: 0;
+}
+
+
+p{
+  font-size: 15px !important;
+  color: var(--text-color) !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: var(--text-color) !important;
+}
+
+.aboutme_btn{
+  background: transparent !important;
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  padding: 10px 25px !important;
+  position: relative;
+  border-image: linear-gradient(to right, var(--bgpink), var(--bgpurple)) 1 !important;
+}
+
+.aboutme_btn::after {
+  background: linear-gradient(45deg, var(--bgpink), var(--bgpurple));
+  height: 17px;
+  width: 17px;
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  border: 3px solid #06101d;
+  transform: rotate(184deg);
+}
+
+.aboutme_btn:before {
+  background: linear-gradient(45deg, var(--bgpink), var(--bgpurple));
+  height: 17px;
+  width: 17px;
+  content: '';
+  position: absolute;
+  left: -2px;
+  bottom: -2px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  border: 3px solid #06101d;
+}
+
+
