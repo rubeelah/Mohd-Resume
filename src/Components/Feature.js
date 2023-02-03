@@ -11,7 +11,7 @@ import img6 from "../assets/images/icon2.svg";
 function Feature(){
     return(
         <>
-        <section className="mt-150" id="feature">
+        <section className="mt-150" id="feature" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <Container>
                 <Row>
                     <Col md={12}>
@@ -33,7 +33,8 @@ function Feature(){
         <section className="mt-5">
             <Container>
                 <Row>
-                    <Col lg={4} className="mt-150">
+                    <Col lg={4} className="mt-150" data-aos="fade-up"
+     data-aos-duration="1000">
                         <div className="about-me_detail">
                             <img src={rubeel} className="w-75" />
                             <div className="main_text-about text-center mt-3">
@@ -90,7 +91,7 @@ function Feature(){
                     </Col>
                     <Col lg={8} className="mt-5 mt-xl-0">
                         <Row>
-                            <Col sm={6} className="mt-3">
+                            <Col sm={6} className="mt-3" data-aos="fade-up" data-aos-duration="2000">
                                 <div className="services_boxes">
                                     <div className="servies_img">
                                       <img src={img1} />
@@ -101,7 +102,7 @@ function Feature(){
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={6} className="mt-3">
+                            <Col sm={6} className="mt-3" data-aos="fade-up" data-aos-duration="3000">
                                 <div className="services_boxes">
                                     <div className="servies_img">
                                       <img src={img2} />
@@ -114,7 +115,7 @@ function Feature(){
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={6} className="mt-3">
+                            <Col sm={6} className="mt-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                                 <div className="services_boxes">
                                     <div className="servies_img">
                                       <img src={img3} />
@@ -125,7 +126,7 @@ function Feature(){
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={6} className="mt-3">
+                            <Col sm={6} className="mt-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
                                 <div className="services_boxes">
                                     <div className="servies_img">
                                       <img src={img6} />
@@ -138,7 +139,7 @@ function Feature(){
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={6} className="mt-3">
+                            <Col sm={6} className="mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div className="services_boxes">
                                     <div className="servies_img">
                                       <img src={img4} />
@@ -149,7 +150,7 @@ function Feature(){
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={6} className="mt-3">
+                            <Col sm={6} className="mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <div className="services_boxes">
                                     <div className="servies_img">
                                       <img src={img5} />

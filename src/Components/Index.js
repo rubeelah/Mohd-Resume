@@ -7,21 +7,22 @@ import Portofolio from "./Portofolio";
 import Contact from "./Contact";
 
 function Index() {
+
     return(
         <>
         <section className="d-flex align-items-center mt-50" id="home">
             <Container>
                 <Row className="">
-                    <Col lg={6}>
+                    <Col lg={6} data-aos="fade-right">
                         <div className="home_content">
-                            <h6>WELCOME TO MY WORLD</h6>
+                            <h6 >WELCOME TO MY WORLD</h6>
                             <h1>Hi, I’m <span className="text_color_gradint">Rubeel Ahmad</span> a UI/UX Designer.</h1>
                             <p className="mt-4">I'm Creative UI/UX Designer from India working in web development and Graphics. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
                             <p>Interact and Share with Team Members and Collegues, and Develop World-Class Solution to Real World Challenges.</p>
                             <Button className="aboutme_btn mt-4">About Me</Button>
                         </div>
                     </Col>
-                    <Col lg={6} className="main_shape mt-5 mt-xl-0 ">
+                    <Col lg={6} className="main_shape mt-5 mt-xl-0 " data-aos="fade-up-left">
                         <div className="home_img d-flex align-items-center justify-content-between">
                            <img src={rubeel} className="w-100"/>
                            <div className="skills_all">
@@ -192,6 +193,7 @@ function Index() {
         <Resume />
         <Portofolio />
         <Contact />
+
         </>
     )
 }

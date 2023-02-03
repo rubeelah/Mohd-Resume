@@ -14,7 +14,7 @@ function Webdesign() {
             <section className="mb-5">
                 <Container>
                     <Row>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" >
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio1} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">

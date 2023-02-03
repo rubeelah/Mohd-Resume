@@ -7,7 +7,7 @@ import Webdesign from "./Webdesign";
 function Portofolio (){
     return(
         <>
-          <section className="mt-5" id="portofolio">
+          <section className="mt-5" id="portofolio" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <Container>
                 <Row>
                     <Col md={12}>
@@ -29,7 +29,7 @@ function Portofolio (){
                 <Container>
                     <Tab.Container id="left-tabs-example" defaultActiveKey="all-design">
                         <Row>
-                            <Col sm={12}>
+                            <Col sm={12} data-aos="fade-down-right">
                                 <Nav variant="pills" className="tabs_resume mx-auto">
                                     <Nav.Item>
                                         <Nav.Link eventKey="all-design"> All</Nav.Link>
@@ -45,7 +45,7 @@ function Portofolio (){
                             <Col sm={12} className="mt-5">
                                 <Tab.Content>
                                     <Tab.Pane eventKey="all-design">
-                                        <Alldesign />
+                                        <Alldesign  />
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="Web-Design">
                                         <Webdesign />

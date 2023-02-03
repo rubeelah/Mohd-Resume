@@ -648,4 +648,10 @@
 .contact_main_boxes .mb-3 {
     position: relative;
 }
+
+.border_content_main{
+    border: 1px solid #ffffff26;
+}
+
+
 /* contact section css end */

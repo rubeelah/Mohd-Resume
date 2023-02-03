@@ -17,7 +17,7 @@ function Alldesign() {
             <section className="mb-5">
                 <Container>
                     <Row>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-up" data-aos-duration="1000">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio1} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -31,7 +31,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-up" data-aos-duration="2000">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio2} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -45,7 +45,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-up" data-aos-duration="3000">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio3} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -59,7 +59,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio7} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -73,7 +73,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio11} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -87,7 +87,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio6} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -101,7 +101,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio12} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -115,7 +115,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio13} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">
@@ -129,7 +129,7 @@ function Alldesign() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={4} md={6} className="mb-3">
+                        <Col xl={4} md={6} className="mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                             <div className="portfolio_boxes services_boxes">
                                 <img src={portfolio14} className="w-100" />
                                 <div className="d-flex mt-3 justify-content-between align-items-center">

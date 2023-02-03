@@ -6,7 +6,7 @@ import Experience from "./Experience";
 function Resume() {
     return (
         <>
-            <section className="mt-5 mt-150" id="resume">
+            <section className="mt-5 mt-150" id="resume" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <Container>
                     <Row>
                         <Col md={12}>
@@ -29,7 +29,7 @@ function Resume() {
                 <Container>
                     <Tab.Container id="left-tabs-example" defaultActiveKey="Education">
                         <Row>
-                            <Col sm={12}>
+                            <Col sm={12} data-aos="fade-down-right">
                                 <Nav variant="pills" className="tabs_resume mx-auto">
                                     <Nav.Item>
                                         <Nav.Link eventKey="Education"><i className="fa-solid fa-graduation-cap"></i> Education</Nav.Link>

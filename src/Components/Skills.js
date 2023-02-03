@@ -7,7 +7,7 @@ function Skills() {
             <section>
                 <Container>
                     <Row>
-                        <Col md={6}>
+                        <Col md={6} data-aos="fade-right">
                             <div className="education_skills_boxes">
                                 <p className="mb-2 year_text text_color_gradint">Features</p>
                                 <h2>Design Skills</h2>
@@ -43,7 +43,7 @@ function Skills() {
                                 </div>
                             </div>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} data-aos="fade-left">
                             <div className="education_skills_boxes">
                                 <p className="mb-2 year_text text_color_gradint">Features</p>
                                 <h2>Development Skill</h2>

@@ -4,7 +4,7 @@ import { Container, Row, Col, Button, Form, Label, } from "react-bootstrap";
 function Contact() {
     return (
         <>
-            <section className="mt-5" id="contact">
+            <section className="mt-5" id="contact" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <Container>
                     <Row>
                         <Col md={12}>
@@ -26,8 +26,8 @@ function Contact() {
 
             <section className="mt-5 mb-5">
                 <Container>
-                    <Row>
-                        <Col lg={4} className="">
+                    <Row className="border_content_main py-4 px-3">
+                        <Col lg={4} className="" data-aos="fade-down-right">
                             <div className="">
                                 <div className="aboutme_content mt-4">
                                     <div className="d-flex align-items-center gap-3 pb-2 mb-2">
@@ -81,7 +81,7 @@ function Contact() {
                         </Col>
                         <Col lg={1}></Col>
 
-                        <Col lg={7} className="mt-5 mt-xl-0">
+                        <Col lg={7} className="mt-5 mt-xl-0" data-aos="fade-down-left">
                             <div className="contact_main_boxes">
                                 <Form>
                                     <Form.Group className="mb-3">
